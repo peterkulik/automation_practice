@@ -11,12 +11,10 @@ Please consider this problem and try to run test cases one by one.
 Test failures with message like "... did not appear in 30 seconds" are typically occurred because of this problem, but sometimes it occurres failures with other messages.
 
 Chrome and firefox browser based executions' results are available here:
-[chrome results](https://peterkulik.github.io/automationpractice/Results/chrome/report.html)
-[firefox results](https://peterkulik.github.io/automationpractice/Results/firefox/report.html)
+- [chrome results](https://peterkulik.github.io/automationpractice/Results/chrome/report.html)
+- [firefox results](https://peterkulik.github.io/automationpractice/Results/firefox/report.html)
 
 ## Installation steps
-- Install python 3.8+ and update pip
-
 - [Install webdrivers: Download and place them into a directory that is in PATH.](https://robotframework.org/SeleniumLibrary/#browser-drivers)
 
 - Clone this repository
@@ -24,7 +22,12 @@ Chrome and firefox browser based executions' results are available here:
 git clone git@github.com:peterkulik/automation_practice.git
 ```
 
-- Create 
+- Optionally, but recommended: Create a virtual environment (python 3.8+) and active it.
+  
+- Install packages:
+```bash
+pip install -r requirements.txt
+```
 
 ## Test execution 
 Use the following tags to run different test scenarios:
