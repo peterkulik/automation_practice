@@ -22,7 +22,7 @@ Chrome and firefox browser based executions' results are available here:
 git clone git@github.com:peterkulik/automation_practice.git
 ```
 
-- Optionally, but recommended: Create a virtual environment (python 3.8+) and active it.
+- Optionally, but recommended: Create a virtual environment (python 3.8+) and activate it.
   
 - Install packages:
 ```bash
